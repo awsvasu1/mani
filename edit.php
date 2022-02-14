@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <div id="main-content">
-    <h2>Update Record</h2>
+    <h2>my Updated Record</h2>
     <?php
     include 'config.php';
 
