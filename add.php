@@ -4,11 +4,11 @@
     <form class="post-form" action="savedata.php" method="post">
         <div class="form-group">
             <label>Name</label>
-            <input type="text" name="sname" />
+            <input type="text" name="mani name" />
         </div>
         <div class="form-group">
             <label>Address</label>
-            <input type="text" name="saddress" />
+            <input type="text" name="mani address" />
         </div>
         <div class="form-group">
             <label>Class</label>
@@ -18,7 +18,7 @@
                 include 'config.php';
 
                 $sql = "SELECT * FROM studentclass";
-                $result = mysqli_query($conn, $sql) or die("Query Unsuccessful.");
+                $result = mysqli_query($conn, $sql) or die("Query  Unsuccessful.");
 
                 while($row = mysqli_fetch_assoc($result)){
                 ?>
